@@ -31,7 +31,7 @@
                 {
                     "type" : "git",
                     "url": "https://github.com/v81d/wattage",
-                    "tag": "1.2.0"
+                    "tag": "1.2.1"
                 }
             ]
         }
