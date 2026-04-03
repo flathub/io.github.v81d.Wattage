@@ -1,7 +1,7 @@
 {
     "id" : "io.github.v81d.Wattage",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "wattage",
     "finish-args" : [
@@ -9,18 +9,6 @@
         "--socket=fallback-x11",
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.UPower"
-    ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
     ],
     "modules" : [
         {
@@ -31,7 +19,8 @@
                 {
                     "type" : "git",
                     "url": "https://github.com/v81d/wattage",
-                    "tag": "1.4.0"
+                    "tag": "1.4.0",
+                    "commit": "c805f58eebed85765950e29eb47c927280ccf580"
                 }
             ]
         }
