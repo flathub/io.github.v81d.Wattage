@@ -19,8 +19,8 @@
                 {
                     "type" : "git",
                     "url": "https://github.com/v81d/wattage",
-                    "tag": "1.4.0",
-                    "commit": "c805f58eebed85765950e29eb47c927280ccf580"
+                    "tag": "1.5.0",
+                    "commit": "bbea0ad5c65ad97ed1bc48de9555bb35efc5541b"
                 }
             ]
         }
